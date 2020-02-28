@@ -1,26 +1,32 @@
 /* Tile Styles */
-div.red {
+body div.red {
     background-color: red;
 }
-div.orange {
+body div.orange {
     background-color: orange;
 }
-div.yellow {
+body div.yellow {
     background-color: yellow;
 }
-div.green {
+body div.green {
     background-color: green;
 }
-div.blue {
+body div.blue {
     background-color: blue;
 }
-div.purple {
+body div.purple {
     background-color: purple;
 }
 
 /* Layout styles */
 body {
+    --selected: inset 2px 2px 2px 2px black;
+
     display: flex;
+}
+
+.selected {
+    box-shadow: var(--selected);
 }
 
 .left-panel {
@@ -35,7 +41,7 @@ body {
 }
 
 .left-panel div:hover {
-    box-shadow: inset 1px 1px 1px 1px black;
+    box-shadow: var(--selected);
 }
 
 .tile-container {
@@ -55,5 +61,5 @@ body {
 }
 
 .row div:hover {
-    box-shadow: inset 1px 1px 1px 1px black;
+    box-shadow: var(--selected);
 }
