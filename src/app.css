@@ -1,0 +1,59 @@
+/* Tile Styles */
+div.red {
+    background-color: red;
+}
+div.orange {
+    background-color: orange;
+}
+div.yellow {
+    background-color: yellow;
+}
+div.green {
+    background-color: green;
+}
+div.blue {
+    background-color: blue;
+}
+div.purple {
+    background-color: purple;
+}
+
+/* Layout styles */
+body {
+    display: flex;
+}
+
+.left-panel {
+    height: 100%;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+.left-panel div {
+    height: 100px;
+    width: 100px;
+}
+
+.left-panel div:hover {
+    box-shadow: inset 1px 1px 1px 1px black;
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row div {
+    height: 50px;
+    width: 50px;
+    background-color: #CCC;
+}
+
+.row div:hover {
+    box-shadow: inset 1px 1px 1px 1px black;
+}
