@@ -1,0 +1,28 @@
+{
+  "name": "projects-period-2020",
+  "version": "0.0.0",
+  "description": "A simple tiling app for projects period 2020",
+  "main": "index.js",
+  "scripts": {
+    "start": "ws --spa src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terodox/projects-period-2020.git"
+  },
+  "keywords": [
+    "kid",
+    "project",
+    "tiling",
+    "javascript"
+  ],
+  "author": "terodox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terodox/projects-period-2020/issues"
+  },
+  "homepage": "https://github.com/terodox/projects-period-2020#readme",
+  "dependencies": {
+    "local-web-server": "4.0.0"
+  }
+}
