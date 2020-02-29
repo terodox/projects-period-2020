@@ -20,7 +20,7 @@ body div.purple {
 
 /* Layout styles */
 body {
-    --selected: inset 2px 2px 2px 2px black;
+    --selected: inset 0 0 30px #666;
 
     display: flex;
 }
