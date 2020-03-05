@@ -60,6 +60,6 @@ body {
     background-color: #CCC;
 }
 
-.row div {
+.row div:hover {
     box-shadow: var(--selected);
 }
