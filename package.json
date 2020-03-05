@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/terodox/projects-period-2020#readme",
   "dependencies": {
-    "local-web-server": "4.0.0"
+    "local-web-server": "4.0.0",
+    "plain-draggable": "2.5.12"
   }
 }

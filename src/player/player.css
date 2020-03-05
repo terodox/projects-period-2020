@@ -1,15 +1,12 @@
 .player {
     position: absolute;
-    top: 30px;
-    left: 39px;
     height: 200px;
     width: 200px;
-
 }
 
 .player .head {
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 20px;
     height: 72px;
     width: 78px;
@@ -18,7 +15,7 @@
 
 .player .body {
     position: absolute;
-    top: 64px;
+    top: 84px;
     left: 31px;
     height: 59px;
     width: 44px;
@@ -27,7 +24,7 @@
 
 .player .arm {
     position: absolute;
-    top: 68px;
+    top: 88px;
     left: 31px;
     height: 66px;
     width: 28px;
@@ -37,7 +34,7 @@
 
 .player .leg {
     position: absolute;
-    top: 123px;
+    top: 143px;
     left: 44px;
     height: 56px;
     width: 28px;

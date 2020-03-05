@@ -17,3 +17,10 @@ document.querySelectorAll('.row div').forEach(function (el) {
         event.srcElement.classList.add(classToAdd);
     });
 });
+
+// Make player draggable
+const tileContainer = document.querySelector('tile-container');
+const draggable = new PlainDraggable(document.getElementById('player', {
+    containment: tileContainer,
+}));
+draggable.snap = { step: 50 };
