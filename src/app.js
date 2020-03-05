@@ -13,6 +13,7 @@ document.querySelectorAll('.row div').forEach(function (el) {
         const tileColor = document.querySelector('div.selected');
         const availableClasses = [ ...tileColor.classList.values() ];
         const classToAdd = availableClasses.filter(className => className !== 'selected');
+        event.srcElement.className = '';
         event.srcElement.classList.add(classToAdd);
     });
 });
