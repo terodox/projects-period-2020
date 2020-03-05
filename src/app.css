@@ -1,26 +1,132 @@
 /* Tile Styles */
-body div.red {
-    background-color: red;
+body div.brick_grey {
+    background-image: url(/tiles/brick_grey.png);
 }
-body div.orange {
-    background-color: orange;
+body div.brick_red {
+    background-image: url(/tiles/brick_red.png);
 }
-body div.yellow {
-    background-color: yellow;
+body div.dirt_grass {
+    background-image: url(/tiles/dirt_grass.png);
 }
-body div.green {
-    background-color: green;
+body div.dirt_sand {
+    background-image: url(/tiles/dirt_sand.png);
 }
-body div.blue {
-    background-color: blue;
+body div.dirt_snow {
+    background-image: url(/tiles/dirt_snow.png);
 }
-body div.purple {
-    background-color: purple;
+body div.dirt {
+    background-image: url(/tiles/dirt.png);
+}
+body div.grass_top {
+    background-image: url(/tiles/grass_top.png);
+}
+body div.gravel_dirt {
+    background-image: url(/tiles/gravel_dirt.png);
+}
+body div.gravel_stone {
+    background-image: url(/tiles/gravel_stone.png);
+}
+body div.graysand {
+    background-image: url(/tiles/graysand.png);
+}
+body div.graystone_ruby_alt {
+    background-image: url(/tiles/.png);
+}
+body div.graystone_sand {
+    background-image: url(/tiles/graysand_sand.png);
+}
+body div.graystone {
+    background-image: url(/tiles/.graystone.png);
+}
+body div.ice {
+    background-image: url(/tiles/ice.png);
+}
+body div.lava {
+    background-image: url(/tiles/lava.png);
+}
+body div.leaves_orange {
+    background-image: url(/tiles/leaves_orange.png);
+}
+body div.leaves {
+    background-image: url(/tiles/leaves.png);
+}
+body div.oven {
+    background-image: url(/tiles/oven.png);
+}
+body div.redsand {
+    background-image: url(/tiles/redsand.png);
+}
+body div.redstone_emerald_alt {
+    background-image: url(/tiles/redstone_emerald_alt.png);
+}
+body div.redstone_sand {
+    background-image: url(/tiles/.redstone_sand.png);
+}
+body div.redstone {
+    background-image: url(/tiles/redstone.png);
+}
+body div.sand {
+    background-image: url(/tiles/sand.png);
+}
+body div.snow {
+    background-image: url(/tiles/snow.png);
+}
+body div.stone_browniron_alt {
+    background-image: url(/tiles/stone_browniron_alt.png);
+}
+body div.stone_coal_alt {
+    background-image: url(/tiles/stone_coal_alt.png);
+}
+body div.stone_diamond_alt {
+    background-image: url(/tiles/stone_diamond_alt.png);
+}
+body div.stone_dirt {
+    background-image: url(/tiles/stone_dirt.png);
+}
+body div.stone_gold_alt {
+    background-image: url(/tiles/stone_gold_alt.png);
+}
+body div.stone_grass {
+    background-image: url(/tiles/stone_grass.png);
+}
+body div.stone_sand {
+    background-image: url(/tiles/.stone_sand.png);
+}
+body div.stone_iron{
+    background-image: url(/tiles/stone_iron.png);
+}
+body div.stone_silver_alt {
+    background-image: url(/tiles/stone_silver_alt.png);
+}
+body div.stone_snow {
+    background-image: url(/tiles/stone_snow.png);
+}
+body div.stone {
+    background-image: url(/tiles/stone.png);
+}
+body div.table {
+    background-image: url(/tiles/table.png);
+}
+body div.trunk-side {
+    background-image: url(/tiles/trunk-side.png);
+}
+body div.trunk_white_side {
+    background-image: url(/tiles/trunk_white_side.png);
+}
+body div.water {
+    background-image: url(/tiles/water.png);
+}
+body div.wood_red {
+    background-image: url(/tiles/wood_red.png);
+}
+body div.wood {
+    background-image: url(/tiles/wood.png);
 }
 
 /* Layout styles */
 body {
     --selected: inset 0 0 30px #666;
+    --dimension: 50px;
 
     display: flex;
 }
@@ -55,9 +161,10 @@ body {
 }
 
 .row div {
-    height: 50px;
-    width: 50px;
+    height: var(--dimension);
+    width: var(--dimension);
     background-color: #CCC;
+    background-size: var(--dimension) var(--dimension);
 }
 
 .row div:hover {
