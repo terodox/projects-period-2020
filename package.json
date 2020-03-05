@@ -4,7 +4,7 @@
   "description": "A simple tiling app for projects period 2020",
   "main": "index.js",
   "scripts": {
-    "start": "ws --spa src/index.html"
+    "start": "cd src && ws --spa index.html"
   },
   "repository": {
     "type": "git",
